@@ -40,7 +40,8 @@ def vencedor(desafiante , competidor, palavraSecreta):
     print("{} Parabens voçê ganhou!!".format(competidor))
     print("{} Voçê perdeu :(" .format(desafiante))
     arquivo = open ("competidores.txt", "a")
-    arquivo.write("="*10 + "\n")
+    arquivo.write(desafiante + "\n" + competidor )
+
     arquivo.close()
     input("Press enter to continue...")
     limparTela()

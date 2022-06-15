@@ -16,9 +16,9 @@ while True:
     letrasPossibilitadas = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", ]
     letrasDeChute = []
 
-    #print("="*20)
+    print("="*20)
     print("Bem vindos ao jogo da forca!!")
-    #print("="*20)
+    print("="*20)
 
     while True:
         print("(1) New Game ")
